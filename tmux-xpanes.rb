@@ -7,7 +7,7 @@ class TmuxXpanes < Formula
 
   def install
     %w[xpanes tmssh].each do |cmd|
-      bin.install "bin/#{cmd}", "bin/#{cmd}"
+      bin.install "bin/#{cmd}"
     end
   end
 
