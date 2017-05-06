@@ -5,11 +5,10 @@ Homebrew formula created by @greymd
 
 ```sh
 $ brew tap greymd/tools
+$ brew update
 ```
 
-### Example
-
-* Install `xpanes`.
+* Install [`xpanes`](https://github.com/greymd/tmux-xpanes).
 
 ```sh
 $ brew install greymd/tools/tmux-xpanes
