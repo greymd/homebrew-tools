@@ -1,8 +1,8 @@
 class TmuxXpanes < Formula
   desc "Smart and awesome way to open on tmux panes."
   homepage "https://github.com/greymd/tmux-xpanes"
-  url "https://github.com/greymd/tmux-xpanes.git", :revision => "f9187f14e9e6a5be1d43965ab954d5b0da377776"
-  version "2.0.0"
+  url "https://github.com/greymd/tmux-xpanes.git", :revision => "41dd1873e273c7a2fabacaa5d08902f792b06d95"
+  version "2.0.1"
   head "https://github.com/greymd/tmux-xpanes.git", :branch => "master"
   depends_on "tmux"
 
