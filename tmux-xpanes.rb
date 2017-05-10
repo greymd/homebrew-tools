@@ -1,8 +1,8 @@
 class TmuxXpanes < Formula
   desc "Ultimate terminal divider powered by tmux."
   homepage "https://github.com/greymd/tmux-xpanes"
-  url "https://github.com/greymd/tmux-xpanes.git", :revision => "41dd1873e273c7a2fabacaa5d08902f792b06d95"
-  version "2.0.1"
+  url "https://github.com/greymd/tmux-xpanes.git", :revision => "52aff35a251e6523e72094f49d6658fc533f7a9b"
+  version "2.0.2"
   head "https://github.com/greymd/tmux-xpanes.git", :branch => "master"
   depends_on "tmux"
 
