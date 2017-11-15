@@ -14,6 +14,6 @@ class TmuxXpanes < Formula
   end
 
   test do
-    system "false"
+    system "xpanes -V"
   end
 end
