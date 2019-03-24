@@ -1,7 +1,10 @@
 class EchoMeme < Formula
   desc "Print your message as a part of various Japanese internet memes."
   homepage "https://github.com/greymd/echo-meme"
-  url "https://github.com/greymd/echo-meme/archive/v0.0.0.tar.gz"
+  git "https://github.com/greymd/echo-meme"
+  url "https://github.com/greymd/echo-meme.git", :branch => "master"
+  head "https://github.com/greymd/echo-meme.git", :branch => "master"
+  # url "https://github.com/greymd/echo-meme/archive/v0.0.0.tar.gz"
 
   bottle :unneeded
 
