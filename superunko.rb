@@ -7,8 +7,7 @@ class Superunko < Formula
   bottle :unneeded
 
   def install
-    bin.install "unko.tower"
-    # system "./install.sh", prefix
+    system "./install.sh", prefix
   end
 
   test do
