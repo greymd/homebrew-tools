@@ -1,5 +1,5 @@
 class SuperUnko < Formula
-  desc "Let's us create shit commands."
+  desc "Let's us create shit commands"
   homepage "https://github.com/greymd/super_unko"
   url "https://github.com/greymd/super_unko.git", :branch => "master"
   head "https://github.com/greymd/super_unko.git", :branch => "master"
