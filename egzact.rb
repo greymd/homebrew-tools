@@ -1,5 +1,5 @@
 class Egzact < Formula
-  version "1.3.1"
+  version "1.3.2"
   desc "Generate flexible patterns on the shell"
   homepage "https://github.com/greymd/egzact"
   url "https://github.com/greymd/egzact.git", :branch => "master"
