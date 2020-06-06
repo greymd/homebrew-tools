@@ -9,7 +9,8 @@ class Teip < Formula
   def install
     bin.install "bin/teip"
     man1.install "man/teip.1"
-    zsh_completion.install "completion/zsh/_teip"
+    ## tar should contains completion dir
+    # zsh_completion.install "completion/zsh/_teip"
   end
 
   test do
