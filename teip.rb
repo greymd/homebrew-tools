@@ -2,7 +2,7 @@ class Teip < Formula
   desc "Highly efficient \"Masking tape\" for standard input"
   homepage "https://github.com/greymd/teip"
   url "https://github.com/greymd/teip/releases/download/v1.1.2/teip-1.1.2.x86_64-apple-darwin.tar.gz"
-  sha256 "8c3f8ee43eea148de108c32df05054a54c4e947bd671e8676f3fbacddc73cca2"
+  sha256 "01bfa4b2b81ff3f31efc822cc4aa1da198d540a3a522f8699c6a9d4320be9834"
 
   def install
     bin.install "bin/teip"
