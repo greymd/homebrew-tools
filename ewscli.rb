@@ -9,6 +9,6 @@ class Ewscli < Formula
 
   def install
     bin.install "bin/ewscli"
-    lib.install "lib"
+    lib.install "lib/ewscli"
   end
 end
