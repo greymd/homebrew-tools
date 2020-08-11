@@ -1,9 +1,9 @@
 class Ewscli < Formula
-  version "0.0.0"
+  version "0.0.1"
   desc "Exchange Web Service CLI"
   homepage "https://github.com/greymd/ewscli"
   url "https://github.com/greymd/ewscli/releases/download/v#{version}/ewscli-#{version}-x86_64-darwin.tar.gz"
-  sha256 "8f3bba6795f3327e47f9dff14570dda35d13915916db91329fbca6598e031b4b"
+  sha256 "84bd8871efc4c7c8595357fb84d470cb27900766fe04611595410006b654a7d8"
 
   bottle :unneeded
 
