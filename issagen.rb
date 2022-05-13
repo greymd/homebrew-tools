@@ -4,8 +4,6 @@ class Issagen < Formula
   homepage "https://github.com/greymd/issagen"
   url "https://github.com/greymd/issagen/archive/v1.0.0.tar.gz"
 
-  bottle :unneeded
-
   depends_on "imagemagick" => :recommended
 
   def install

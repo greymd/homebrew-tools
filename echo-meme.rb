@@ -6,8 +6,6 @@ class EchoMeme < Formula
   head "https://github.com/greymd/echo-meme.git", :branch => "master"
   # url "https://github.com/greymd/echo-meme/archive/v0.0.0.tar.gz"
 
-  bottle :unneeded
-
   def install
     system "./install.sh", prefix
   end
