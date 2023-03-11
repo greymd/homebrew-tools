@@ -1,15 +1,15 @@
 class Teip < Formula
-  version "2.2.0"
+  version "2.3.0"
   desc "Masking tape to help commands \"do one thing well\""
   homepage "https://github.com/greymd/teip"
 
   # 64-bit ARM version for Apple Silicon
   if Hardware::CPU.arm?
     url "https://github.com/greymd/teip/releases/download/v#{version}/teip-#{version}.aarch64-apple-darwin.tar.gz"
-    sha256 "e403b493daf6a97a2ef91df444ba4a292f96f1d4764c3e667e6710c4fbeb321c"
+    sha256 "6ee1e98340fd72e02a2d2d48940c36ae7d68bdd8d57d9ce96872cc87eb03ad55"
   else
     url "https://github.com/greymd/teip/releases/download/v#{version}/teip-#{version}.x86_64-apple-darwin.tar.gz"
-    sha256 "ef041adf0699cd4ba05b4ba76de2ea94847fbd8c12f9b83142ae904f8f551a81"
+    sha256 "0011b75b6766102a07fd3a33febea940cafe7b9d5dbd5433b2d8774ffce84f55"
   end
 
   def install
